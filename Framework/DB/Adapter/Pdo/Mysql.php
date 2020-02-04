@@ -76,7 +76,7 @@ class Mysql extends \Zend_Db_Adapter_Pdo_Mysql implements AdapterInterface
     /**
      * Maximum number of deadlock retries
      */
-    const MAX_DEADLOCK_RETRIES = 10;
+    const MAX_DEADLOCK_RETRIES = 5;
 
     /**
      * Default class name for a DB statement.
