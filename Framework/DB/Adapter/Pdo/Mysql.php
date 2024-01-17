@@ -272,8 +272,6 @@ class Mysql extends \Zend_Db_Adapter_Pdo_Mysql implements AdapterInterface
             2006 => ConnectionException::class,
             // SQLSTATE[HY000]: General error: 2013 Lost connection to MySQL server during query
             2013 => ConnectionException::class,
-            // SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded
-            1205 => LockWaitException::class,
             // SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock
             1213 => DeadlockException::class,
             // SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry
