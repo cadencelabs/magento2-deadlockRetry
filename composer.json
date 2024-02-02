@@ -1,0 +1,20 @@
+{
+  "name": "cadence/module-deadlock-retry",
+  "version": "1.0.0",
+  "description": "Cadence Labs - Deadlock Retry",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "103.0.*"
+  },
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Cadence\\DeadlockRetry\\": ""
+    }
+  }
+}
